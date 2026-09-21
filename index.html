@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu bản thân</title>
+    <!-- Toàn bộ CSS (inline + internal của các bài trước) đã được gom vào file ngoài này -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Bài tập tuần 2: nav dùng làm menu, href trỏ đến id của 2 div bên dưới -->
+    <nav>
+        <a href="#gioi-thieu">Giới thiệu bản thân</a>
+        <a href="#giao-luu">Gửi thông tin và liên hệ cùng tôi</a>
+    </nav>
+
+    <!-- Câu 2: dùng div để tách trang thành 2 phần -->
+    <div id="gioi-thieu">
+
+        <!-- Câu 1: h1 - cấp cao nhất -->
+        <h1>Giới thiệu bản thân</h1>
+
+        <!-- Câu 4: ảnh đại diện, dùng src, alt, width, height -->
+        <img src="data:image/jpeg;base64,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"
+            alt="Ảnh đại diện của tôi" width="120" height="120">
+
+        <!-- Câu 1: h2 - cấp con của Giới thiệu bản thân -->
+        <h2>Thông tin cơ bản</h2>
+        <!-- Câu 3: ul + li -->
+        <ul>
+            <li>Tên: Hoàng Nguyễn Gia Bảo</li>
+            <li>Năm sinh: 2006</li>
+            <li>Chuyên ngành: Hệ thống thông tin</li>
+        </ul>
+
+        <h2>Sở thích</h2>
+
+        <!-- Câu 1: h3 - cấp con của Sở thích -->
+        <h3>Món ăn</h3>
+        <!-- Câu 3: ol + li -->
+        <ol>
+            <li>Quả na</li>
+            <li>Mì bò chua thơm</li>
+            <li>Bánh đường dừa</li>
+        </ol>
+
+        <h3>Giải trí</h3>
+
+        <!-- Câu 1: h4 - cấp con của Giải trí -->
+        <h4>Trò chơi</h4>
+        <ul>
+            <li>Bắn cá</li>
+            <li>Nhảy dây</li>
+            <li>Đá cầu</li>
+        </ul>
+
+        <h4>Bài hát yêu thích</h4>
+        <ul>
+            <li>Đối mặt - Washi Tuấn Anh</li>
+            <li>Bối rối - Đông Nhi</li>
+            <li>Anh tài trở lại - Lương Bích Hữu</li>
+        </ul>
+
+        <h2>Mục tiêu của bản thân</h2>
+        <p>Tôi mong muốn trở thành một lập trình viên giỏi, có công việc ổn định và không ngừng học hỏi thêm kiến thức
+            mới.</p>
+
+        <!-- Bài tập tuần 2: bảng mục tiêu, cột Hoàn thành dùng input type="checkbox" -->
+        <table>
+            <tr>
+                <th>Mục tiêu</th>
+                <th>Thời hạn</th>
+                <th>Hoàn thành</th>
+            </tr>
+            <tr>
+                <td>Trung bình điểm môn Web đạt 8.0</td>
+                <td>30/12/2026</td>
+                <td><input type="checkbox" name="mt1"></td>
+            </tr>
+            <tr>
+                <td>Đạt chứng chỉ ngoại ngữ đủ chuẩn tốt nghiệp</td>
+                <td>15/06/2027</td>
+                <td><input type="checkbox" name="mt2"></td>
+            </tr>
+            <tr>
+                <td>Chọn được công ty với vị trí Backend Developer</td>
+                <td>01/09/2027</td>
+                <td><input type="checkbox" name="mt3"></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <!-- Câu 2: div thứ hai -->
+    <div id="giao-luu">
+        <h1>Gửi thông tin và giao lưu cùng tôi</h1>
+
+        <ul>
+            <li>Email: 245201555@gmail.com</li>
+            <li>Facebook: facebook.com/giabao</li>
+            <li>Zalo: 0123 456 789</li>
+        </ul>
+
+        <!-- Bài tập tuần 2: form dùng input với type phù hợp cho từng trường -->
+        <form>
+            <label>Họ và tên: <input type="text" name="hoten"></label><br><br>
+
+            <label>Email: <input type="email" name="email"></label><br><br>
+
+            <label>Tin nhắn:<br>
+                <textarea name="tinnhan" rows="4" cols="30"></textarea>
+            </label><br><br>
+
+            <label>Giới tính:</label><br>
+            <input type="radio" name="gioitinh" id="nam" value="Nam">
+            <label for="nam">Nam</label>
+            <input type="radio" name="gioitinh" id="nu" value="Nữ">
+            <label for="nu">Nữ</label>
+            <br><br>
+
+            <label>Sở thích:</label><br>
+            <input type="checkbox" name="sothich" id="nghenhac" value="Nghe nhạc">
+            <label for="nghenhac">Nghe nhạc</label>
+            <input type="checkbox" name="sothich" id="boiloi" value="Bơi lội">
+            <label for="boiloi">Bơi lội</label>
+            <input type="checkbox" name="sothich" id="bien" value="Biển">
+            <label for="bien">Biển</label>
+            <br><br>
+
+            <label>Ngành:
+                <select name="nganh">
+                    <option value="khmt">Khoa học Máy tính</option>
+                    <option value="httt">Hệ thống thông tin</option>
+                    <option value="ktpm">Kỹ thuật phần mềm</option>
+                    <option value="mmt">Mạng máy tính</option>
+                </select>
+            </label>
+            <br><br>
+
+            <button type="submit">Gửi</button>
+        </form>
+    </div>
+
+    <!-- Bài tập tuần 2: footer với thông tin người thực hiện -->
+    <!-- Thay MSSVCuaBan và HoTenCuaBan bằng MSSV và họ tên thật, viết liền không dấu, vd: @2024 22520123 NguyenVanA -->
+    <footer>
+        <p>@2024 MSSVCuaBan HoTenCuaBan</p>
+    </footer>
+
+</body>
+
+</html>
